@@ -1,0 +1,147 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Alice', Arial, sans-serif;
+}
+
+h1,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    min-height: 100dvh;
+    min-width: 100vw;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.page {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.bg-img {
+    background-color: #573824;
+    background-image: url("../images/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    backdrop-filter: blur(2px);
+}
+
+.content {
+    border-radius: 24px;
+    margin-top: 48px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    width: 800px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.container {
+    padding: 0px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about>.title {
+    font-size: 40px;
+    color: #291B1A;
+    font-weight: 300;
+}
+
+.about>.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.about>.info>.desc {
+    font-size: 16px;
+    color: #573A37;
+    font-weight: 300;
+}
+
+.ing {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ing>.title {
+    font-size: 24px;
+    color: #291B1A;
+    font-weight: 300;
+}
+
+
+.ing>.desc {
+    font-size: 16px;
+    color: #573A37;
+    line-height: 2;
+    padding-left: 24px;
+    font-weight: 300;
+}
+
+.preparo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.preparo>.title {
+    color: #291B1A;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.preparo>.text-desc {
+    font-size: 16px;
+    color: #573A37;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+footer {
+    padding-bottom: 48px;
+    color: #F0E8C2;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
